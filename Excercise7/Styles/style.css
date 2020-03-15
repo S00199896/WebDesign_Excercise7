@@ -1,0 +1,128 @@
+header 
+{
+    /*sets the dimensions and other settings of the image placed*/
+    
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat; /* stops image from repeating and having multiple images in a tiles*/
+    background-size:cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+#content
+{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+nav
+{
+    background-color: grey;
+    padding: 5px /* padding adds space around things */
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color:  #B2B2B2; /* #B2B2B2 is the color grey */
+    display: inline; /* inline sets it to be a horizontal display */
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid Tomato;
+    border-radius: 10px;
+}
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+aside
+{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+}
+
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+aside ul li
+{
+    list-style-type: none;
+}
+ 
+
+.col_detail
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.ChocolateDesert
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding 2px;
+}
+
+.backgroundImageB
+{
+    background-image: url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC
+{
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageD
+{
+    background-image: url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+footer 
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    display: inline-block;
+    
+    text-align: center;
+}
